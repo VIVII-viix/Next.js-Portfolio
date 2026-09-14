@@ -14,7 +14,7 @@ const PROJECTS: Project[] = [
     title: "Kawaii Count",
     year: 2025,
     summary:
-      "A restaurant inventory system that saves information of each food and records the amount sold and overall revenue",
+      "A restaurant inventory system that saves information of each food and records the amount sold and overall revenue.",
     filePath: "public/kawaii-count.png",
   },
   {
@@ -22,14 +22,14 @@ const PROJECTS: Project[] = [
     title: "CSS Gallery",
     year: 2025,
     summary:
-      "One of my first projects, it is a simple gallery featuring my favorite characters from the game Zenless Zone Zero (ZZZ)",
+      "One of my first projects, it is a simple gallery featuring my favorite characters from the game Zenless Zone Zero (ZZZ).",
     filePath: "public/css-gallery.png",
   },
   {
     slug: "horse-racing-2d",
     title: "Horse Racing 2d",
     year: 2026,
-    summary: "An oversimplified 2d horse racing game made just for fun",
+    summary: "An oversimplified 2d horse racing game made just for fun.",
     filePath: "public/horse-racing-2d.png",
   },
   {
@@ -37,7 +37,7 @@ const PROJECTS: Project[] = [
     title: "Ya!W8",
     year: 2026,
     summary:
-      "A Y8-esque that allows aspiring game developers in iACADEMY to showcase their games for the other students to play while also allowing them to collaborate with each other.",
+      "A Y8-esque website that allows aspiring game developers in iACADEMY to showcase their games for the other students to play while also allowing them to collaborate with each other.",
     filePath: "baho-tae",
   },
 ];
