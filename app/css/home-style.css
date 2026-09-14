@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+.content-container {
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  width: 100%;
+}
+
+.my-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.intro {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.desc {
+  font-size: 18px;
+}
+
+.contact {
+  background-color: black;
+  text-wrap: wrap;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.publicity {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile-img,
+.github-profile {
+  border-radius: 15px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials-container {
+  display: flex;
+  flex-direction: column;
+  height: 195px;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid red;
+  border-radius: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials-butt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 999px;
+  height: 40px;
+  width: 40px;
+}

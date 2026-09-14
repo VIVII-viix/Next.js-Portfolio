@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  gap: 50px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 0 8px;
+  font-size: 25px;
+  border-bottom: solid 2px transparent;
+
+  transition: all 0.3s ease;
+  transform: translateY(0px);
+}
+
+.nav-link:hover:not(.active) {
+  transform: translateY(-5px) scale(1.1);
+  border-bottom-color: black;
+}
+
+.active {
+  font-weight: 600;
+  transform: scale(1.2);
+  border-bottom: solid 4px black;
+}

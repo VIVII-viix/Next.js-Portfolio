@@ -1,25 +1,11 @@
 import Image from "next/image";
 import { FaFacebook, FaGithub } from "react-icons/fa6";
 
+import "./css/home-style.css";
+
 export default function Home() {
   return (
     <div className="page">
-      <header className="header-container">
-        <div className="header">
-          <div className="logo-container">
-            <Image
-              width={20}
-              height={20}
-              className="logo-img"
-              src="/insight_3.webp"
-              alt="logo"
-            />
-            <p className="logo-name">PANZERFAUST</p>
-          </div>
-
-          <a className="collab-butt">Work with Me!</a>
-        </div>
-      </header>
       <main className="main-content">
         <div className="content-container">
           <div className="my-profile">

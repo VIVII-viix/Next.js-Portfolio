@@ -1,0 +1,10 @@
+.link {
+  display: inline-block;
+  border-bottom: solid 2px transparent;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  transform: translateY(-5px) scale(1.1);
+  border-bottom-color: black;
+}
